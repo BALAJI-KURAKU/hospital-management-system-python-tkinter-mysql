@@ -29,15 +29,14 @@ This Python project implements a basic Hospital Management System with a graphic
 
 ## Installation
 
-
-* **1. Clone the Repository:**
+**1. Clone the Repository:**
 git clone [https://github.com/](https://github.com/)[YourUsername]/hospital-management-system-python-tkinter-mysql.git  # Replace with your username
 cd hospital-management-system-python-tkinter-mysql
 
-* **2. Install Required Libraries:**
+**2. Install Required Libraries:**
 pip install mysql-connector-python
 
-* **3. Set up the MySQL Database:**
+**3. Set up the MySQL Database:**
 Create a Database: Use a MySQL client (like MySQL Workbench or the command line) to create a database named hospitaldata (or whatever you prefer – just make sure it matches in your code).
 * SQL
 
@@ -64,20 +63,20 @@ CREATE TABLE hospital (
 );
 Configure Database Connection: Open the hospital_management.py file and update the database connection details (host, user, password) to match your MySQL setup.
 
-* **4. Run the Application:**
+**4. Run the Application:**
 
 python hospital_management.py
 
-* **Usage:**
+**Usage:**
 Run the script. The GUI window will appear.
 Enter patient and prescription information in the respective fields.
 Click the "Prescription" button to generate a prescription summary in the text box on the right.
 Use the other buttons (Prescription Data, Update, Delete, Clear, Exit) to manage data.
 
-* **Screenshots**
+**Screenshots**
 ![image](https://github.com/user-attachments/assets/de74ade1-a14c-459b-b33b-a076683b6061)
 
 
-* **License**
+**License**
 
 This project is licensed under the MIT License - see the LICENSE file for details.
