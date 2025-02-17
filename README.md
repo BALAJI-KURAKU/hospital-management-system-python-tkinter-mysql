@@ -27,25 +27,25 @@ This Python project implements a basic Hospital Management System with a graphic
 * Tkinter (Built-in with Python)
 * MySQL Connector/Python (You'll likely use `mysql-connector-python`)
 
-Installation
+## Installation
 
 
-Clone the Repository:
-```bash
+* **Clone the Repository:**
+* ```bash
 git clone [https://github.com/](https://github.com/)[YourUsername]/hospital-management-system-python-tkinter-mysql.git  # Replace with your username
 cd hospital-management-system-python-tkinter-mysql
 
-Install Required Libraries:
+* **Install Required Libraries:**
 pip install mysql-connector-python
 
-Set up the MySQL Database:
+* **Set up the MySQL Database:**
 Create a Database: Use a MySQL client (like MySQL Workbench or the command line) to create a database named hospitaldata (or whatever you prefer – just make sure it matches in your code).
-SQL
+* SQL
 
 CREATE DATABASE hospitaldata;
 USE hospitaldata;  -- Select the database
 
-Create the Table: You'll need to create the hospital table. Here's a sample SQL script (adjust data types as needed):
+* Create the Table: You'll need to create the hospital table. Here's a sample SQL script (adjust data types as needed):
 SQL
 
 CREATE TABLE hospital (
@@ -65,20 +65,20 @@ CREATE TABLE hospital (
 );
 Configure Database Connection: Open the hospital_management.py file and update the database connection details (host, user, password) to match your MySQL setup.
 
-4. Run the Application:
+* **Run the Application:**
 
 python hospital_management.py
 
-Usage:
+* **Usage:**
 Run the script. The GUI window will appear.
 Enter patient and prescription information in the respective fields.
 Click the "Prescription" button to generate a prescription summary in the text box on the right.
 Use the other buttons (Prescription Data, Update, Delete, Clear, Exit) to manage data.
 
-Screenshots
+* **Screenshots**
 ![image](https://github.com/user-attachments/assets/de74ade1-a14c-459b-b33b-a076683b6061)
 
 
-License
+* **License**
 
 This project is licensed under the MIT License - see the LICENSE file for details.
