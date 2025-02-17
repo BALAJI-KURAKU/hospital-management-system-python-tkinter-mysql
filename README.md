@@ -30,14 +30,14 @@ This Python project implements a basic Hospital Management System with a graphic
 ## Installation
 
 
-* **Clone the Repository:**
+* **1. Clone the Repository:**
 git clone [https://github.com/](https://github.com/)[YourUsername]/hospital-management-system-python-tkinter-mysql.git  # Replace with your username
 cd hospital-management-system-python-tkinter-mysql
 
-* **Install Required Libraries:**
+* **2. Install Required Libraries:**
 pip install mysql-connector-python
 
-* **Set up the MySQL Database:**
+* **3. Set up the MySQL Database:**
 Create a Database: Use a MySQL client (like MySQL Workbench or the command line) to create a database named hospitaldata (or whatever you prefer – just make sure it matches in your code).
 * SQL
 
@@ -64,7 +64,7 @@ CREATE TABLE hospital (
 );
 Configure Database Connection: Open the hospital_management.py file and update the database connection details (host, user, password) to match your MySQL setup.
 
-* **Run the Application:**
+* **4. Run the Application:**
 
 python hospital_management.py
 
