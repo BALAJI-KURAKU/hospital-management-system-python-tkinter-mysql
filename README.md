@@ -2,7 +2,7 @@
 A Python Hospital Management System built with Tkinter for the user interface and MySQL for persistent data storage.  It manages patient information and prescriptions, offering a basic framework for handling essential hospital data.
 
 
-1. # Hospital Management System (Python, Tkinter, MySQL)
+# Hospital Management System (Python, Tkinter, MySQL)
 
 This Python project implements a basic Hospital Management System with a graphical user interface built using Tkinter and MySQL for data persistence. It manages patient information and prescriptions. This project is intended for educational purposes and demonstrates basic database interaction and GUI development in Python.
 
@@ -29,7 +29,7 @@ This Python project implements a basic Hospital Management System with a graphic
 
 ## Installation
 
-1. Clone the Repository:
+# Clone the Repository:
    ```bash
    git clone [https://github.com/](https://github.com/)[YourUsername]/hospital-management-system-python-tkinter-mysql.git  # Replace with your username
    cd hospital-management-system-python-tkinter-mysql
