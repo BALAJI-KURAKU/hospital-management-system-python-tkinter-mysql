@@ -21,11 +21,15 @@ This Python project implements a basic Hospital Management System with a graphic
 * **GUI:**  User-friendly interface built with Tkinter.
 * **Prescription Printing:** Generates a prescription summary that can be printed (basic text output).
 
+  
+
 ## Technologies Used
 
 * Python 3.x (Recommended: 3.7 or higher)
 * Tkinter (Built-in with Python)
 * MySQL Connector/Python (You'll likely use `mysql-connector-python`)
+
+  
 
 ## Installation
 
@@ -67,11 +71,14 @@ Configure Database Connection: Open the hospital_management.py file and update t
 
 python hospital_management.py
 
+
+
 **Usage:**
 Run the script. The GUI window will appear.
 Enter patient and prescription information in the respective fields.
 Click the "Prescription" button to generate a prescription summary in the text box on the right.
 Use the other buttons (Prescription Data, Update, Delete, Clear, Exit) to manage data.
+
 
 **Screenshots**
 ![image](https://github.com/user-attachments/assets/de74ade1-a14c-459b-b33b-a076683b6061)
