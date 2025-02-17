@@ -31,7 +31,6 @@ This Python project implements a basic Hospital Management System with a graphic
 
 
 * **Clone the Repository:**
-* ```bash
 git clone [https://github.com/](https://github.com/)[YourUsername]/hospital-management-system-python-tkinter-mysql.git  # Replace with your username
 cd hospital-management-system-python-tkinter-mysql
 
